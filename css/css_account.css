@@ -41,8 +41,8 @@ input{
     height: 20.75px;
 }
 .header-top-on{
-    margin-top: 10px;
-    margin-right: 110px;
+    margin-top: -20px;
+    margin-right: 100px;
 }
 .social-in{
     margin-top: -10px;
