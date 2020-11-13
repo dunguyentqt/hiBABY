@@ -1,0 +1,37 @@
+.page-breadcrumb{
+    float: left;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 20px;
+    list-style: none;
+}
+ .page-breadcrumb li {
+    margin-right: 30px;
+    position: relative; }
+ .page-breadcrumb li::after {
+     position: absolute;
+     right: -19px;
+     font-size: 20px;
+     top: -3px;
+     content: "/";}
+ .page-breadcrumb li:last-child {
+    margin-right: 0; }
+ .page-breadcrumb li:last-child::after {
+    display: none; }
+ .page-breadcrumb li a {
+    font-size: 16px;
+    color: #1a161e;
+    font-weight: 500; }
+ .page-breadcrumb li a:hover {
+    color: #ff708a; }
+
+ .page{
+     margin-bottom: 20px;
+ }
+ .to-Bot{
+     margin-right: 43px;
+     padding-top: 7px;
+ }
+
+
