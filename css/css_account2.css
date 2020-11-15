@@ -269,11 +269,11 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 .bg-theme-one-light {
     background-color: #ffa8b8; }
 
-.bg-theme-two {
-    background-color: #94c7eb; }
+/*.bg-theme-two {*/
+/*    background-color: #94c7eb; }*/
 
-.bg-theme-two-light {
-    background-color: #f3faff; }
+/*.bg-theme-two-light {*/
+/*    background-color: #f3faff; }*/
 
 img.mfp-img {
     background-color: #f6f7f8;
@@ -1743,7 +1743,7 @@ img.mfp-img {
     height: 100%;
     max-width: 205px;
     padding: 40px 50px;
-    background-image: url(../images/pattern/pattern-dot.png);
+    background-image: url(../images/pattern-dot.png);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -4040,7 +4040,7 @@ img.mfp-img {
     top: 0;
     height: 100%;
     width: 100%;
-    background-image: url(../images/pattern/pattern-dot.png);
+    background-image: url(../images/pattern-dot.png);
     z-index: -1; }
 .feature-item-2 .icon {
     margin-bottom: 20px; }
@@ -4795,7 +4795,7 @@ img.mfp-img {
 /*  16. Footer CSS
 /*----------------------------------------*/
 .footer-top-section {
-    background-image: url(../images/pattern/pattern-dot.png);
+    background-image: url(../images/pattern-dot.png);
     background-repeat: repeat; }
 
 /*-- Footer Widget --*/
@@ -6039,8 +6039,8 @@ img.mfp-img {
 .mt-75 {
     margin-top: 75px !important; }
 
-.mt-80 {
-    margin-top: 80px !important; }
+/*.mt-80 {*/
+/*    margin-top: 80px !important; }*/
 
 .mt-85 {
     margin-top: 85px !important; }
@@ -6163,8 +6163,8 @@ img.mfp-img {
         margin-top: 55px !important; } }
 
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
-    .mt-lg-60 {
-        margin-top: 60px !important; } }
+    /*.mt-lg-60 {*/
+    /*    margin-top: 60px !important; } }*/
 
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
     .mt-lg-65 {
@@ -6795,8 +6795,8 @@ img.mfp-img {
 .mb-35 {
     margin-bottom: 35px !important; }
 
-.mb-40 {
-    margin-bottom: 40px !important; }
+/*.mb-40 {*/
+/*    margin-bottom: 40px !important; }*/
 
 .mb-45 {
     margin-bottom: 45px !important; }
@@ -6911,8 +6911,8 @@ img.mfp-img {
         margin-bottom: 15px !important; } }
 
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
-    .mb-lg-20 {
-        margin-bottom: 20px !important; } }
+    /*.mb-lg-20 {*/
+    /*    margin-bottom: 20px !important; } }*/
 
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
     .mb-lg-25 {
