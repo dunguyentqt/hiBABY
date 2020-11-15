@@ -20,10 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="998b007c-73c2-4bec-99f5-905cc12d36d2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account.html" beforeDir="false" afterPath="$PROJECT_DIR$/account.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/css_account.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/css_account.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/css_account.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/css_account2.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/css_account2.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,10 +48,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\loc\AA" />
       <recent name="D:\hiBABY\css" />
       <recent name="C:\Users\caoan\Documents\GitHub\hiBABY\images" />
       <recent name="C:\Users\caoan\Documents\GitHub\hiBABY\js" />
@@ -82,6 +83,9 @@
       <workItem from="1605408392679" duration="13603000" />
       <workItem from="1605423112339" duration="40000" />
       <workItem from="1605428267087" duration="1331000" />
+      <workItem from="1605430193933" duration="49000" />
+      <workItem from="1605430264048" duration="80000" />
+      <workItem from="1605431080363" duration="731000" />
     </task>
     <servers />
   </component>
@@ -98,6 +102,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605428288998">

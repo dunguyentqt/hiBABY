@@ -108,3 +108,35 @@ ul.header-in{
 .label_forgotpass{
     text-align: center;
 }
+.bt_next{
+    margin-top: 20px !important;
+    width: 665% !important;
+}
+.inp_number{
+    margin-left: 10%;
+}
+._1y306T {
+    text-align: center !important;
+    border: none !important;
+    border-bottom: 1px solid black !important;
+    padding: 0px !important;
+    outline: none !important;
+    width: 55px !important;
+    border-radius: 0 !important;
+    margin-right: 35px !important;
+    font-size: 35px !important;
+}
+.wait_fews{
+    text-align: center !important;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.bt_done{
+    margin-left: 90px !important;
+}
+.bt_create{
+
+}
+.bt_login{
+    margin: auto;
+}

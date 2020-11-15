@@ -143,8 +143,8 @@ ul {
     /*margin-left: 95px;*/
 }
 .login-register-form-wrap input[type="button"]:hover {
-background-color: #ff708a;
-border-color: #ff708a;
+    background-color: #ff708a;
+    border-color: #ff708a;
 }
 /*-- Container Fluid --*/
 .container-fluid {
@@ -4643,7 +4643,7 @@ img.mfp-img {
 .login-register-form-wrap {
     /*-- Social Login --*/ }
 .login-register-form-wrap h3 {
-    font-size: 45px;
+    font-size: 44px;
     line-height: 1;
     text-transform: capitalize;
     margin-bottom: 50px;
@@ -4651,7 +4651,7 @@ img.mfp-img {
 .login-register-form-wrap h4 {
     font-size: 18px;
     line-height: 1;
-    text-transform: capitalize;
+    /*text-transform: capitalize;*/
     margin-bottom: 20px;
     font-weight: 600; }
 .login-register-form-wrap input {
