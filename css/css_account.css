@@ -94,3 +94,17 @@ ul.header-in{
 .cart{
     margin-right: 105px;
 }
+/*  CONTENT*/
+.img_baby{
+    width: 643px;
+    height: 393px;
+}
+.forgot_pass{
+    margin-top: 10px;
+    font-size: 15px;
+    color: black;
+    text-decoration: underline;
+}
+.label_forgotpass{
+    text-align: center;
+}
