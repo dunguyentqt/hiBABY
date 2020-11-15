@@ -22,7 +22,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!--fonts-->
 <link href='http://fonts.googleapis.com/css?family=Cabin:400,500,600,700' rel='stylesheet' type='text/css'>
-<!--//fonts-->
+	<script src="js/plugins.js"></script>
+
+	<!--//fonts-->
 <!--//slider-script-->
 <script>$(document).ready(function(c) {
 	$('.alert-close').on('click', function(c){
@@ -309,14 +311,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="content">
 			<div class="wrapofcontent">
 			<div class="col-md-9">
-			<div class="shoe" style="height: 250px">
-<!--				<img class="img-responsive" src="images/123798471_356366615647608_9097329920815133675_n.png" alt="" >-->
-				<a href="store.html"> <img class="shoevip" src="images/shoevip.png" style="height: 100%; width: 100%" > </a>
-<!--				<div class="shop">-->
-<!--					<h4>SHOP <span>hiBABY</span></h4>-->
-<!--					<p>FASHION 2020</p>-->
-<!--				</div>-->
-			</div>
+				<div style="border: 3px solid #0e82ff ; border-radius: 5px" >
+				<div class="w3-content w3-display-container">
+					<img class="mySlides" src="images/banner-honikids-shop-chinh-1.jpg" style="width:100%">
+					<img class="mySlides" src="images/banner14.jpg" style="width:100%">
+					<img class="mySlides" src="images/banner-quan-ao-thu-dong-desktop.jpg" style="width:100%">
+					<img class="mySlides" src="images/cate3_banner.png" style="width:100%">
+
+					<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+					<button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+				</div>
+				</div>
 				<div class="content-bottom">
 					<h3>Featured products</h3>
 					<div class="bottom-grid">
@@ -690,7 +695,27 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									$(".tab2 .single-bottom").hide();
 									$(".tab1 .single-bottom").hide();
 								})
-							});
+							})
+
+							var slideIndex = 1;
+							showDivs(slideIndex);
+
+							function plusDivs(n) {
+								showDivs(slideIndex += n);
+							}
+
+							function showDivs(n) {
+								var i;
+								var x = document.getElementsByClassName("mySlides");
+								if (n > x.length) {slideIndex = 1}
+								if (n < 1) {slideIndex = x.length}
+								for (i = 0; i < x.length; i++) {
+									x[i].style.display = "none";
+								}
+								x[slideIndex-1].style.display = "block";
+							}
+
+
 						</script>
 						<!-- script -->
 					</div>
@@ -840,7 +865,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<div class="testimonial-item">
 									<p>Jadusona is one of the most exclusive Baby shop in the wold, where you can find all product for your baby that your want to buy for your baby. I recomanded this shop all of you</p>
 									<div class="testimonial-author">
-										<img src="images/testimonial/testimonial-1.png" alt="">
+										<img src="images/Hillary_Clinton_by_Gage_Skidmore_4_(cropped).jpg" alt="">
 										<div class="content3">
 											<h4>Zacquline Smith</h4>
 											<p>CEO, Momens Group</p>
@@ -853,7 +878,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<div class="testimonial-item">
 									<p>Jadusona is one of the most exclusive Baby shop in the wold, where you can find all product for your baby that your want to buy for your baby. I recomanded this shop all of you</p>
 									<div class="testimonial-author">
-										<img src="images/testimonial/testimonial-2.png" alt="">
+										<img src="images/91619147_2565654010367261_9061448986656768000_n.jpg" alt="">
 										<div class="content3">
 											<h4>Nusaha Williams</h4>
 											<p>CEO, Momens Group</p>
@@ -881,7 +906,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<div class="blog-item">
 									<div class="image-wrap">
 										<h4 class="date">May <span>25</span></h4>
-										<a class="image" href="single-blog.html"><img src="images/blog/blog-1.jpg" alt=""></a>
+										<a class="image" href="single-blog.html"><img src="images/0014c6fd6372c182f454db69be6c5245.jpg" alt=""></a>
 									</div>
 									<div class="content3">
 										<h4 class="title"><a href="single-blog.html">Lates and new Trens for baby fashion</a></h4>
@@ -901,7 +926,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<div class="blog-item">
 									<div class="image-wrap">
 										<h4 class="date">May <span>20</span></h4>
-										<a class="image" href="#"><img src="images/blog/blog-2.jpg" alt=""></a>
+										<a class="image" href="#"><img src="images/boy-kids-wear-shirt-500x500.png" alt=""></a>
 									</div>
 									<div class="content3">
 										<h4 class="title"><a href="#">New Collection New Trend all New Style</a></h4>
