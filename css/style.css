@@ -1236,28 +1236,28 @@ ul.social {
 	width:60%;
 }
 
-.account-top input[type="submit"]{
-	background: #f02b63;
-  color: #fff;
-  font-size: 1.1em;
-  border: none;
-  outline: none;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -o-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  font-weight: 600;
-  padding: 0.4em 1.3em;
-  transition: 0.5s all;
-  -webkit-transition: 0.5s all;
-  -moz-transition: 0.5s all;
-  -o-transition: 0.5s all;
-  margin: 0 0 0 6em;
-}
-.account-top input[type="submit"]:hover{
-	background:#4cb1ca;
-}
+/*.account-top input[type="submit"]{*/
+/*	background: #f02b63;*/
+/*  color: #fff;*/
+/*  font-size: 1.1em;*/
+/*  border: none;*/
+/*  outline: none;*/
+/*  border-radius: 5px;*/
+/*  -webkit-border-radius: 5px;*/
+/*  -o-border-radius: 5px;*/
+/*  -moz-border-radius: 5px;*/
+/*  -ms-border-radius: 5px;*/
+/*  font-weight: 600;*/
+/*  padding: 0.4em 1.3em;*/
+/*  transition: 0.5s all;*/
+/*  -webkit-transition: 0.5s all;*/
+/*  -moz-transition: 0.5s all;*/
+/*  -o-transition: 0.5s all;*/
+/*  margin: 0 0 0 6em;*/
+/*}*/
+/*.account-top input[type="submit"]:hover{*/
+/*	background:#4cb1ca;*/
+/*}*/
 
 .five-in  {
   background: #fff;
@@ -1288,7 +1288,7 @@ ul.social {
 }
 a.create{
 	text-decoration:none;
-	color:#fff;	
+	color:#fff;
 	padding: 7px 20px;
 	background: #f02b63;
 	margin: 0 auto;
