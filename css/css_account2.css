@@ -1684,7 +1684,7 @@ img.mfp-img {
     color: #94c7eb;
     border-bottom: 1px solid #94c7eb; }
 .banner.banner-1 .content h1 {
-    color: #1a161e;
+    color: #ff708a;
     margin-bottom: 18px; }
 .banner.banner-1.content-left .content {
     left: 30px;
@@ -2498,6 +2498,8 @@ img.mfp-img {
     opacity: 0;
     /*-- Action Buttons --*/ }
 .product-item .product-inner .image .image-overlay .action-buttons {
+    margin-bottom: 100px;
+
     text-align: center;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2528,6 +2530,9 @@ img.mfp-img {
     border-color: #ff708a;
     color: #ffffff; }
 .product-item .product-inner .content {
+    /*margin-bottom: 22px;*/
+    /* padding-bottom: 71px; */
+    z-index: 9;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

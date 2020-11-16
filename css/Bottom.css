@@ -485,7 +485,7 @@ html{
     font-size: 20px;
     background: #bed9f8;
     position: absolute;
-    top: 10%;
+    top: 6%;
     left: 0%;
     transform: translate(0%,-50%);
     -ms-transform: translate(-0%,-50%);
@@ -495,7 +495,7 @@ html{
     font-size: 20px;
     background: #bed9f8;
     position: absolute;
-    top: 10%;
+    top: 6%;
     right: 0%;
     transform: translate(0%,-50%);
     -ms-transform: translate(0%,-50%);
