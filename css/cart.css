@@ -8,6 +8,7 @@
     width: 100%;
 }
 .cart-table table thead tr th {
+    font-size: 20px;
     border-bottom: 1px solid #ddd;
     border-right: 1px solid #ddd;
     border-top: medium none;
@@ -177,7 +178,7 @@
 .container2{
     background: white;
     padding: 20px;
-    border-top: 5px solid #00aedb;
+    /*border-top: 5px solid #00aedb;*/
 
 }
 .cart-table table tbody tr td.pro-title a {
@@ -239,4 +240,19 @@
     border-width: 0 1px;
     height: 34px;
     text-align: center;
+}
+.cart-table table tbody tr td.pro-add-cart a {
+    background-color: #1a161e;
+    border: medium none;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    height: 40px;
+    line-height: 24px;
+    padding: 8px 25px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    font-weight: 600;
 }

@@ -144,16 +144,19 @@ ul.social-in li  i:hover{
 /*----*/
 .header-bottom{
 	background:#fff;
-	border-bottom:5px solid #00aedb;
+	border-bottom:5px solid #0e82ff;
 	  padding: 0 2em;
 	border-bottom-left-radius: 10px;
 	border-bottom-right-radius: 10px;
 
 }
+.megamenu>li.active>a{
+	color: #0e82ff !important;
 
+}
 .top-nav{
 	float:left;
-	
+	color: #0e82ff;
 	width: 58%;
 }
 .cssmenu {
@@ -264,12 +267,15 @@ ul.social-in li  i:hover{
 	
  
 }
+.cart h6 strong{
+	font-size: 20px !important;
+}
 .cart h6 span.item{
-	color: #4cb1ca;
+	color: #1b88ff;
 	  padding: 0 8px;
 }
 .cart h6 span.rate{
-	color: #7db122;
+	color: black;
 	  padding: 0 8px 0 0;
 }
 .page{
@@ -2047,7 +2053,7 @@ body > div.container > div.header-bottom > div.top-nav > ul{
 	width: 120%;
 }
 .logo{
-	margin-top: 5px;
+	margin-top: -6px;
 	height: 100px;
 	margin-left: 30px;
 }
