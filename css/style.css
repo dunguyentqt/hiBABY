@@ -853,7 +853,7 @@ ul.start li.arrow a:hover, ul.start li span {
 	color: #fff;
 	font-size: 1em;
 	padding: 0.4em 0.9em;
-	background:#7db122;
+	background: #9ad1fc;
 	border-radius: 25px;
 	-webkit-border-radius: 25px;
 	-o-border-radius: 25px;
@@ -908,6 +908,7 @@ a.more:hover{
 .col-md-6 a:hover .ut h6 a{
 	color:#f02b63;
 }
+
 .ut-in{
 	border:1px solid #fff;
 }
