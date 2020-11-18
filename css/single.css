@@ -1,0 +1,181 @@
+.single-para .head{
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.single-para .head .head-left{
+    float: left;
+}
+.single-para .head .head-left .title {
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+.single-para .head .head-left .ratting {
+    float: left;
+    width: 100%;
+}
+.single-para .head .head-left .ratting i {
+    color: #94c7eb;
+    font-size: 16px;
+    line-height: 1;
+    float: left;
+    margin-right: 3px;
+}
+.single-para .head .head-right {
+    float: right;
+}
+.single-para .head .head-right .price {
+    display: block;
+    font-size: 24px;
+    font-weight: 600;
+    color: #ff708a;
+    font-family: "Dosis", sans-serif;
+}
+.single-para .availability {
+    display: block;
+    font-size: 15px;
+    font-weight: 600;
+    color: #1a161e;
+}
+.available{
+    margin-bottom: 30px;
+}
+.single-para .tagss {
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.single-para .tagss h5 {
+    font-family: "Poppins", sans-serif;
+    display: block;
+    font-size: 15px;
+    font-weight: 600;
+    color: #1a161e;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 0;
+    line-height: 24px;
+}
+.single-para .tagss a {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.single-para .shares {
+    overflow: hidden;
+    width: 100%;
+}
+.single-para .shares h5 {
+    font-family: "Poppins", sans-serif;
+    display: block;
+    font-size: 15px;
+    font-weight: 600;
+    color: #1a161e;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 0;
+    line-height: 24px;
+}
+.single-para .shares a {
+    margin-right: 10px;
+}
+.cart-an{
+    margin-bottom: 30px;
+}
+.single-para .quantity-colors {
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+.single-para .quantity-colors .quantity {
+    overflow: hidden;
+    float: left;
+    width: 65%;
+    margin-bottom: 15px;
+}
+.single-para .quantity-colors .quantity h5 {
+    font-family: "Poppins", sans-serif;
+    display: block;
+    font-size: 15px;
+    font-weight: 600;
+    color: #1a161e;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 0;
+    line-height: 24px;
+    padding: 5px 0;
+}
+.single-para .quantity-colors .quantity .pro-qty {
+    width: 100px;
+    padding: 0 30px;
+    float: left;
+    border: 1px solid #cccccc;
+    position: relative;
+    border-radius: 50px;
+}
+.single-para .quantity-colors .quantity .pro-qty .qtybtn.dec {
+    left: 0;
+}
+.single-para .quantity-colors .quantity .pro-qty .qtybtn {
+    position: absolute;
+    top: 0;
+    width: 30px;
+    text-align: center;
+    color: #1a161e;
+    cursor: pointer;
+}
+.single-para .quantity-colors .quantity .pro-qty .qtybtn i {
+    font-size: 10px;
+    line-height: 34px;
+}
+.single-para .quantity-colors .quantity .pro-qty input {
+    width: 100%;
+    border: none;
+    border-width: 0 1px;
+    height: 34px;
+    text-align: center;
+}
+.single-para .quantity-colors .quantity .pro-qty .qtybtn.inc {
+    right: 0;
+}
+.single-para .quantity-colors .quantity .pro-qty .qtybtn {
+    position: absolute;
+    top: 0;
+    width: 30px;
+    text-align: center;
+    color: #1a161e;
+    cursor: pointer;
+}
+.single-para .quantity-colors .quantity .pro-qty .qtybtn i {
+    font-size: 10px;
+    line-height: 34px;
+}
+.single-para .quantity-colors .colors {
+    overflow: hidden;
+    float: left;
+    width: 35%;
+    margin-bottom: 15px;
+}
+.single-para .quantity-colors .colors h5 {
+    font-family: "Poppins", sans-serif;
+    display: block;
+    font-size: 15px;
+    font-weight: 600;
+    color: #1a161e;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 0;
+    line-height: 24px;
+    padding: 5px 0;
+}
+.single-para .quantity-colors .colors .color-options {
+    overflow: hidden;
+    float: left;
+}
+.single-para .quantity-colors .colors .color-options button {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    border: none;
+    margin-right: 10px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    float: left;
+}

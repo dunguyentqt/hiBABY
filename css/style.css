@@ -431,7 +431,7 @@ ul.social-in li  i:hover{
 	font-weight:400;
 	margin:0.5em 0 0 ;
 	display:block;
-	  width: 100%
+	  width: 115%
 }
 a.offer:hover{
 	color:#fff ;
@@ -869,7 +869,7 @@ ul.start li.arrow a:hover, ul.start li span {
 		text-align:center;
 }
 .four h3 {
-	color: #f02b63;
+	color: #ff708a;
 	font-size: 7em;
 
 }
@@ -880,7 +880,7 @@ ul.start li.arrow a:hover, ul.start li span {
 }
 a.more{
 	color:#fff;
-	background:#f02b63;
+	background:#ff708a;
 	text-decoration:none;
 	padding: 0.5em 2em;
   font-size: 1.1em;
@@ -906,7 +906,7 @@ a.more:hover{
 	text-decoration:none;
 }
 .col-md-6 a:hover .ut h6 a{
-	color:#f02b63;
+	color:#ff708a;
 }
 
 .ut-in{
@@ -955,7 +955,7 @@ span.add-to{
 }
 a.cart-to{
 	float:right;
-	color: #f02b63;
+	color: #ff708a;
   font-size: 1.2em;
   text-decoration: none;
   padding-top: 0.5em;
@@ -964,29 +964,30 @@ a.cart-to:hover{
 	text-decoration:underline;
 }
 a.cart-an{
-  color: #fff;
-  background: #f02b63;
+	font-weight: 600;
+  color: black;
+  background: #94c7eb;
   text-decoration: none;
-  padding: 0.5em 1.2em;
+  padding: 10px 30px;
   font-size: 1.1em;
-  border-radius: 5px;
+  border-radius: 30px !important;
   -webkit-border-radius: 5px;
   -o-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
 }
 a.cart-an:hover{
-	background: #4cb1ca;
+	background: #ff708a;
 }
-.single-para h5{
-	color:#000;
-	font-size:1.4em;
-	border-bottom:1px solid #000;
-	border-top:1px solid #000;
-	padding:0.5em 0; 
-}
+/*.single-para h5{*/
+/*	color:#000;*/
+/*	font-size:1.4em;*/
+/*	border-bottom:1px solid #000;*/
+/*	border-top:1px solid #000;*/
+/*	padding:0.5em 0; */
+/*}*/
 .available h6{
-	color:#f02b63;
+	color:#ff708a;
 	font-size:1.4em;
 	padding: 0 0 1em;
 }
@@ -1005,12 +1006,12 @@ a.cart-an:hover{
 }
 
 /* start share-des */
-.share-desc{
+.share-desc{ca
 	padding: 20px 0;
 }
 .share h4{
 	font-size: 1.1em;
-	color: #f02b63;
+	color: #ff708a;
 	margin-bottom: 10px;
 	text-transform: uppercase;
 	text-shadow: 0 1px 0 #ffffff;
@@ -1034,7 +1035,7 @@ a.cart-an:hover{
   text-align: center;
 }
 .share_nav li a:hover{
-	background: #f02b63;
+	background: #ff708a;
 }
 .share li img {
 	vertical-align:middle; 
@@ -1084,15 +1085,17 @@ a.cart-an:hover{
 	margin:10px 0 20px 0;
 }
 .nbs-flexisel-item a {
-	color: #999;
-	font-size:0.8125em;
+	font-size: 12px;
+	color: #323132;
+	font-weight: 600;
 }
 .nbs-flexisel-item a:hover{
-	color:#555;
+	color:#ff708a;
 }
 .nbs-flexisel-item p {
-	color: #000;
-	font-size: 0.85em;
+	color: #ff708a;
+	font-size: 12px;
+	font-weight: 600;
 	padding-top: 25px;
 }
 .nbs-flexisel-item > img {
@@ -2042,6 +2045,7 @@ li.etalage_small_thumbs {
   font-size: 0.8em;
 }
 a.cart-an {
+
   padding: 0.4em 1em;
   font-size: 1em;
 }
