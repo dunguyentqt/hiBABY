@@ -1,7 +1,13 @@
+<!--A Design by W3layouts
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <title>Mihstore A Ecommerce Category Flat Bootstarp Resposive Website Template | Home :: w3layouts</title>
+    <title> hiBABY.com</title>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery.min.js"></script>
@@ -54,7 +60,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     </script>
     <!-- start menu -->
     <link href="css/megamenu.css" rel="stylesheet" type="text/css" media="all" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <script type="text/javascript" src="js/megamenu.js"></script>
     <script>$(document).ready(function(){$(".megamenu").megamenu();});</script>
 
@@ -65,6 +70,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <link rel="stylesheet" type="text/css" href="css/Breadcrumb.css">
     <link rel="stylesheet" type="text/css" href="css/user.css">
     <link rel="stylesheet" type="text/css" href="css/Bottom.css">
+    <link rel="stylesheet" type="text/css" href="css/css_account2.css">
+    <link rel="stylesheet" type="text/css" href="css/checkout.css">
+    <link rel="stylesheet" type="text/css" href="css/OrderTracking.css">
 
 </head>
 <body>
@@ -110,7 +118,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     </li>
                     <li>
                         <i class="far fa-address-card"></i>
-                        <a href="OrderTracking.html" style="color: white"> ĐƠN HÀNG CỦA BẠN</a>
+                        <a href="user.html" style="color: white">QUẢN LÝ TÀI KHOẢN</a>
                     </li>
                     <!--				<li ><a href="contact.html" > CONTACT US</a></li>-->
                 </ul>
@@ -286,7 +294,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
             <ul class="page-breadcrumb">
                 <li><a href="index.html">Trang Chủ</a></li>
-                <li><a href="#">Quản lý tài khoản</a></li>
+                <li><a href="#">Trạng thái đơn hàng</a></li>
             </ul>
 
 
@@ -295,231 +303,62 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             </div>
 
 
-            <!--			<h6>-->
-            <!--				<a href="#">Page Title</a><b>|</b>Page description The quick, brown-->
-            <!--				<span class="for">fox jumps over a lazy dog. DJs flock by when TV ax quiz prog.</span>-->
-            <!--			</h6>-->
-
         </div>
         <div class="content">
             <div class="container2">
-
-                <!-- Breadcrumb -->
-<!--                <nav aria-label="breadcrumb" class="main-breadcrumb">-->
-<!--                    <ol class="breadcrumb">-->
-<!--                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>-->
-<!--                        <li class="breadcrumb-item"><a href="javascript:void(0)">User</a></li>-->
-<!--                        <li class="breadcrumb-item active" aria-current="page">Profile Settings</li>-->
-<!--                    </ol>-->
-<!--                </nav>-->
-                <!-- /Breadcrumb -->
-
-                <div class="row gutters-sm">
-                    <div class="col-md-4 d-none d-md-block">
-                        <div class="card">
-                            <div class="card-body">
-                                <nav class="nav flex-column nav-pills nav-gap-y-1">
-                                    <a href="#profile" data-toggle="tab" class="nav-item nav-link has-icon nav-link-faded active">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user mr-2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>Thông tin tài khoản
-                                    </a>
-                                    <a href="#account" data-toggle="tab" class="nav-item nav-link has-icon nav-link-faded">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-settings mr-2"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>Tùy chỉnh tài khoản
-                                    </a>
-                                    <a href="#security" data-toggle="tab" class="nav-item nav-link has-icon nav-link-faded">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shield mr-2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>Bảo mật
-                                    </a>
-                                    <a href="#notification" data-toggle="tab" class="nav-item nav-link has-icon nav-link-faded">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bell mr-2"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg>Thông báo
-                                    </a>
-                                    <a href="#billing" data-toggle="tab" class="nav-item nav-link has-icon nav-link-faded">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-credit-card mr-2"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect><line x1="1" y1="10" x2="23" y2="10"></line></svg>Thanh toán
-                                    </a>
-                                </nav>
+                <article class="card">
+                    <div class="card-body">
+                        <h3 style="font-weight: 600 ; margin-bottom: 10px">Mã đơn hàng: OD45345345435</h3>
+                        <article class="card">
+                            <div class="card-body row">
+                                <div class="col"> <strong>Ngày đặt hàng:</strong> <br>29 tháng 10 năm 2020 </div>
+                                <div class="col"> <strong>Giao hàng bởi:</strong> <br> hiBABY shipping | <i class="fa fa-phone"></i> 0886486614 </div>
+                                <div class="col"> <strong>Trạng thái:</strong> <br> Đội giao hàng đã nhận </div>
+<!--                                <div class="col"> <strong>Tracking #:</strong> <br> BD045903594059 </div>-->
                             </div>
+                        </article>
+                        <div class="track">
+                            <div class="step active"> <span class="icon"> <i class="fa fa-check"></i> </span> <span class="text">Xác nhận đơn hàng</span> </div>
+                            <div class="step active"> <span class="icon"> <i class="fa fa-user"></i> </span> <span class="text"> Đội giao hàng đã nhận hàng</span> </div>
+                            <div class="step"> <span class="icon"> <i class="fa fa-truck"></i> </span> <span class="text"> Đang giao hàng</span> </div>
+                            <div class="step"> <span class="icon"> <i class="fa fa-box"></i> </span> <span class="text">Sẵn sàng gửi đến khách</span> </div>
                         </div>
+                        <hr>
+                        <ul class="row">
+                            <li class="col-md-4">
+                                <figure class="itemside mb-3">
+                                    <div class="aside"><img src="images/product/dam-jeans-be-gai-cf-g0720010-2y-xanh-jean.jpg" class="img-sm border"></div>
+                                    <figcaption class="info align-self-center">
+                                        <p class="title">Đầm Jeans bé gái<br> CF Xanh</p> <span class="text-muted">225.000đ</span>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li class="col-md-4">
+                                <figure class="itemside mb-3">
+                                    <div class="aside"><img src="images/product/cap-2-doi-vo-be-trai-bamboo-cf-i0120031-0-6m-nhieu-mau.webp" class="img-sm border"></div>
+                                    <figcaption class="info align-self-center">
+                                        <p class="title">Cặp 2 đôi vớ bé trai <br> Bamboo nhiều màu</p> <span class="text-muted">100.000đ</span>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li class="col-md-4">
+                                <figure class="itemside mb-3">
+                                    <div class="aside"><img src="images/product/tui-deo-cheo-7-12y-cf-a069069-vang.webp" class="img-sm border"></div>
+                                    <figcaption class="info align-self-center">
+                                        <p class="title">Túi đeo chéo<br> CF vàng</p> <span class="text-muted">175.000đ</span>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </ul>
+                        <hr>
+<!--                        <a href="#" class="btn btn-warning" data-abc="true"> <i class="fa fa-chevron-left"></i> Back to orders</a>-->
+                        <button class="button" >
+                            <i class="fas fa-chevron-left"></i>
+                            <a href="cart.html"> TRỞ LẠI GIỎ HÀNG</a>
+                        </button>
                     </div>
-                    <div class="col-md-8">
-                        <div class="card">
-                            <div class="card-header border-bottom mb-3 d-flex d-md-none">
-                                <ul class="nav nav-tabs card-header-tabs nav-gap-x-1" role="tablist">
-                                    <li class="nav-item">
-                                        <a href="#profile" data-toggle="tab" class="nav-link has-icon active"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#account" data-toggle="tab" class="nav-link has-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-settings"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#security" data-toggle="tab" class="nav-link has-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shield"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#notification" data-toggle="tab" class="nav-link has-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bell"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#billing" data-toggle="tab" class="nav-link has-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-credit-card"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect><line x1="1" y1="10" x2="23" y2="10"></line></svg></a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="card-body tab-content">
-                                <div class="tab-pane active" id="profile">
-                                    <h6>Hồ sơ của bạn</h6>
-                                    <hr>
-                                    <form>
-                                        <div class="form-group">
-                                            <label for="fullName">Họ và tên</label>
-                                            <input type="text" class="form-control" id="fullName" aria-describedby="fullNameHelp" placeholder="Enter your fullname" value="Cao Lộc">
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="bio">Số điện thoại</label>
-                                            <textarea class="form-control autosize" id="bio" placeholder="Write something about you" style="overflow: hidden; overflow-wrap: break-word; resize: none; height: 62px;">Nhập số điện thoại để trải nghiệm được tốt hơn</textarea>
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="url">Địa chỉ Email</label>
-                                            <input type="text" class="form-control" id="url" placeholder="Enter your website address" value="caoangialoc20@gmail.com">
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="location">Địa chỉ của bạn</label>
-                                            <input type="text" class="form-control" id="location" placeholder="Enter your location" value="Nhập vào đây địa chỉ bạn có thể nhận hàng">
-                                        </div>
-                                        <div class="form-group small text-muted">
-                                            Những nội dung trên bạn có thể tùy chọn xóa hoặc thêm bất cứ lúc nào. Mọi thông tin của quý khách được bảo mật tuyệt đối 100%. Xin chân thành cảm ơn.
-                                        </div>
-                                        <button type="button" class="btn btn-primary">Cập nhật hồ sơ</button>
-                                        <button type="reset" class="btn btn-light">Tạo mới hồ sơ</button>
-                                    </form>
-                                </div>
-                                <div class="tab-pane" id="account">
-                                    <h6>TÙY CHỈNH TÀI KHOẢN</h6>
-                                    <hr>
-                                    <form>
-                                        <div class="form-group">
-                                            <label for="username">Username</label>
-                                            <input type="text" class="form-control" id="username" aria-describedby="usernameHelp" placeholder="Enter your username" value="kennethvaldez">
-                                            <small id="usernameHelp" class="form-text text-muted">After changing your username, your old username becomes available for anyone else to claim.</small>
-                                        </div>
-                                        <hr>
-                                        <div class="form-group">
-                                            <label class="d-block text-danger">Delete Account</label>
-                                            <p class="text-muted font-size-sm">Once you delete your account, there is no going back. Please be certain.</p>
-                                        </div>
-                                        <button class="btn btn-danger" type="button">Delete Account</button>
-                                    </form>
-                                </div>
-                                <div class="tab-pane" id="security">
-                                    <h6>TÙY CHỈNH BẢO MẬT</h6>
-                                    <hr>
-                                    <form>
-                                        <div class="form-group">
-                                            <label class="d-block">Change Password</label>
-                                            <input type="text" class="form-control" placeholder="Enter your old password">
-                                            <input type="text" class="form-control mt-1" placeholder="New password">
-                                            <input type="text" class="form-control mt-1" placeholder="Confirm new password">
-                                        </div>
-                                    </form>
-                                    <hr>
-                                    <form>
-                                        <div class="form-group">
-                                            <label class="d-block">Two Factor Authentication</label>
-                                            <button class="btn btn-info" type="button">Enable two-factor authentication</button>
-                                            <p class="small text-muted mt-2">Two-factor authentication adds an additional layer of security to your account by requiring more than just a password to log in.</p>
-                                        </div>
-                                    </form>
-                                    <hr>
-                                    <form>
-                                        <div class="form-group mb-0">
-                                            <label class="d-block">Sessions</label>
-                                            <p class="font-size-sm text-secondary">This is a list of devices that have logged into your account. Revoke any sessions that you do not recognize.</p>
-                                            <ul class="list-group list-group-sm">
-                                                <li class="list-group-item has-icon">
-                                                    <div>
-                                                        <h6 class="mb-0">San Francisco City 190.24.335.55</h6>
-                                                        <small class="text-muted">Your current session seen in United States</small>
-                                                    </div>
-                                                    <button class="btn btn-light btn-sm ml-auto" type="button">More info</button>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </form>
-                                </div>
-                                <div class="tab-pane" id="notification">
-                                    <h6>TÙY CHỈNH THÔNG BÁO</h6>
-                                    <hr>
-                                    <form>
-                                        <div class="form-group">
-                                            <label class="d-block mb-0">Security Alerts</label>
-                                            <div class="small text-muted mb-3">Receive security alert notifications via email</div>
-                                            <div class="custom-control custom-checkbox">
-                                                <input type="checkbox" class="custom-control-input" id="customCheck1" checked="">
-                                                <label class="custom-control-label" for="customCheck1">Email each time a vulnerability is found</label>
-                                            </div>
-                                            <div class="custom-control custom-checkbox">
-                                                <input type="checkbox" class="custom-control-input" id="customCheck2" checked="">
-                                                <label class="custom-control-label" for="customCheck2">Email a digest summary of vulnerability</label>
-                                            </div>
-                                        </div>
-                                        <div class="form-group mb-0">
-                                            <label class="d-block">SMS Notifications</label>
-                                            <ul class="list-group list-group-sm">
-                                                <li class="list-group-item has-icon">
-                                                    Comments
-                                                    <div class="custom-control custom-control-nolabel custom-switch ml-auto">
-                                                        <input type="checkbox" class="custom-control-input" id="customSwitch1" checked="">
-                                                        <label class="custom-control-label" for="customSwitch1"></label>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item has-icon">
-                                                    Updates From People
-                                                    <div class="custom-control custom-control-nolabel custom-switch ml-auto">
-                                                        <input type="checkbox" class="custom-control-input" id="customSwitch2">
-                                                        <label class="custom-control-label" for="customSwitch2"></label>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item has-icon">
-                                                    Reminders
-                                                    <div class="custom-control custom-control-nolabel custom-switch ml-auto">
-                                                        <input type="checkbox" class="custom-control-input" id="customSwitch3" checked="">
-                                                        <label class="custom-control-label" for="customSwitch3"></label>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item has-icon">
-                                                    Events
-                                                    <div class="custom-control custom-control-nolabel custom-switch ml-auto">
-                                                        <input type="checkbox" class="custom-control-input" id="customSwitch4" checked="">
-                                                        <label class="custom-control-label" for="customSwitch4"></label>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item has-icon">
-                                                    Pages You Follow
-                                                    <div class="custom-control custom-control-nolabel custom-switch ml-auto">
-                                                        <input type="checkbox" class="custom-control-input" id="customSwitch5">
-                                                        <label class="custom-control-label" for="customSwitch5"></label>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </form>
-                                </div>
-                                <div class="tab-pane" id="billing">
-                                    <h6>TÙY CHỈNH THANH TOÁN</h6>
-                                    <hr>
-                                    <form>
-                                        <div class="form-group">
-                                            <label class="d-block mb-0">Payment Method</label>
-                                            <div class="small text-muted mb-3">You have not added a payment method</div>
-                                            <button class="btn btn-info" type="button">Add Payment Method</button>
-                                        </div>
-                                        <div class="form-group mb-0">
-                                            <label class="d-block">Payment History</label>
-                                            <div class="border border-gray-500 bg-gray-200 p-3 text-center font-size-sm">You have not made any payment.</div>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
+                </article>
             </div>
-
 
         </div>
         <!---->
@@ -639,7 +478,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 
     </div>
-    </div>
+</div>
 </div>
 
 <!---->

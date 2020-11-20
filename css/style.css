@@ -478,13 +478,13 @@ text-decoration:underline;
 .cart li{
 	display:inline-block;
 }
-.round{
-  display: inline-block;
-  background: url(../images/img-sprite.png)no-repeat -22px -81px ;
-  width: 19px;
-  height: 19px;
-  vertical-align: text-top;
-}
+/*.round{*/
+/*  display: inline-block;*/
+/*  background: url(../images/img-sprite.png)no-repeat -22px -81px ;*/
+/*  width: 19px;*/
+/*  height: 19px;*/
+/*  vertical-align: text-top;*/
+/*}*/
 /*----*/
 .content{
 	border-top: 5px solid #0e82ff;
