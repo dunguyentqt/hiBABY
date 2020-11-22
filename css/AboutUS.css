@@ -108,10 +108,15 @@ header p {
     -ms-justify-content: space-between;
     justify-content: space-between;
 }
+.round1{
+    /*display: inline-block;width: 19px;*/
+    /*height: 19px;*/
+    /*vertical-align: text-top;*/
+}
 .flex.flex-2 .col.col1 {
     width: 30%;
 }
-.image.round {
+.image.round1 {
     border-radius: 100%;
 }
 .image.fit {
@@ -128,7 +133,7 @@ header p {
 .wrapper.style1 a:hover {
     color: rgba(0, 0, 0, 0.5);
 }
-.image.round img {
+.image.round1 img {
     border-radius: 100%;
 }
 .image.fit img {

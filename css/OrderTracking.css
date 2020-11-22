@@ -134,7 +134,7 @@ p {
 
 .button {
     font-weight: 600;
-    float: left;
+    /*float: left;*/
     height: 44px;
     padding: 10px 30px;
     border: none;
