@@ -1,13 +1,7 @@
-<!--A Design by W3layouts
-Author: W3layout
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title> hiBABY.com</title>
+    <title>Mihstore A Ecommerce Category Flat Bootstarp Resposive Website Template | Home :: w3layouts</title>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery.min.js"></script>
@@ -60,6 +54,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     </script>
     <!-- start menu -->
     <link href="css/megamenu.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <script type="text/javascript" src="js/megamenu.js"></script>
     <script>$(document).ready(function(){$(".megamenu").megamenu();});</script>
 
@@ -70,11 +65,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <link rel="stylesheet" type="text/css" href="css/Breadcrumb.css">
     <link rel="stylesheet" type="text/css" href="css/user.css">
     <link rel="stylesheet" type="text/css" href="css/Bottom.css">
-    <link rel="stylesheet" type="text/css" href="css/css_account2.css">
-    <link rel="stylesheet" type="text/css" href="css/checkout.css">
-    <link rel="stylesheet" type="text/css" href="css/OrderTracking.css">
-    <link rel="stylesheet" type="text/css" href="css/AboutUS.css">
-
+    <link rel="stylesheet" type="text/css" href="css/user.css">
+    <link rel="stylesheet" type="text/css" href="css/my-account.css">
 
 
 </head>
@@ -116,12 +108,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <!--									<a href="account.html" style="color: white">LOG IN</a>-->
                     <!--								</li>-->
                     <li>
-                        <i class="far fa-edit"></i>
-                        <a href="account.html" style="color: white">ĐĂNG NHẬP</a>
+                        <i class="far fa-user"></i>
+                        <a href="user.html" style="color: white">CHÀO BẠN</a>
                     </li>
                     <li>
                         <i class="fas fa-shipping-fast"></i>
-                        <a href="OrderTracking.html" style="color: white">QUẢN LÝ ĐƠN HÀNG</a>
+                        <a href="OrderTracking.html" style="color: white"> QUẢN LÝ ĐƠN HÀNG</a>
                     </li>
                     <!--				<li ><a href="contact.html" > CONTACT US</a></li>-->
                 </ul>
@@ -297,7 +289,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
             <ul class="page-breadcrumb">
                 <li><a href="index.html">Trang Chủ</a></li>
-                <li><a href="#">Về chúng tôi</a></li>
+                <li><a href="#">Đơn hàng của tôi</a></li>
             </ul>
 
 
@@ -306,125 +298,154 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             </div>
 
 
+            <!--			<h6>-->
+            <!--				<a href="#">Page Title</a><b>|</b>Page description The quick, brown-->
+            <!--				<span class="for">fox jumps over a lazy dog. DJs flock by when TV ax quiz prog.</span>-->
+            <!--			</h6>-->
+
         </div>
         <div class="content">
-            <div class="container2">
-                <!-- Header -->
+            <div class=" margin-top60 margin-bottom60">
+                <div class="container2">
+                    <div class="row">
+                        <!-- My Order Table -->
+                        <div class="col-sm-9 col-md-9 col-lg-9">
+                            <div class="my-account">
+                                <div class="bottom-padding">
+                                    <h3 class="hello">Xin chào, Lộc ^^</h3>
+                                    <p style="font-size: 16px"> Rất hân hạnh được phục vụ bạn</p>
+                                </div>
+                                <div class="bottom-padding">
+                                    <div class="title-box">
+                                        <h3 style="margin-bottom: -10px;margin-top: 24px">Những đơn hàng gần đây</h3>
+                                    </div>
+                                    <!-- Table  -->
+                                    <div class="table-responsive">
+                                        <table class="table table-striped table-bordered table-responsive text-left my-orders-table">
+                                            <thead>
+                                            <tr class="first last">
+                                                <th>#</th>
+                                                <th>NGÀY</th>
+                                                <th>KHÁCH HÀNG</th>
+                                                <th><span class="nobr">TỔNG ĐƠN</span></th>
+                                                <th>TRẠNG THÁI</th>
+                                                <th class="text-center"></th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td>100000022</td>
+                                                <td>4/30/2020</td>
+                                                <td>Lộc</td>
+                                                <td><span class="price">700.000đ</span></td>
+                                                <td class="text-primary"><em>Mới nhất</em></td>
+                                                <td class="text-center last">
+                                                    <div class="btn-group">
+                                                        <a href="OrderTracking.html" class="btn btn-color1">Xem đơn </a>
+                                                        <a href="#" class="btn btn-default">Hủy đơn</a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>100000021</td>
+                                                <td>3/03/20</td>
+                                                <td>Lộc</td>
+                                                <td><span class="price">1.000.000đ</span></td>
+                                                <td class="text-color"><em>Đã giao</em></td>
+                                                <td class="text-center last">
+                                                    <div class="btn-group">
+                                                        <a href="#" class="btn btn-color1">Xem đơn </a>
+                                                        <a href="#" class="btn btn-default" ><del>Hủy đơn</del></a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>100000020</td>
+                                                <td>1/03/20</td>
+                                                <td>Lộc</td>
+                                                <td><span class="price">400.000đ</span></td>
+                                                <td class="text-danger"><em>Đã hủy</em></td>
+                                                <td class="text-center last">
+                                                    <div class="btn-group">
+                                                        <a href="#" class="btn btn-color1">Xem đơn </a>
+                                                        <a href="#" class="btn btn-default"><del>Hủy đơn</del></a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>100000019</td>
+                                                <td>3/02/20</td>
+                                                <td>Lộc</td>
+                                                <td><span class="price">1.000.000đ</span></td>
+                                                <td class="text-warning"><em>Đang vận chuyển</em></td>
+                                                <td class="text-center last">
+                                                    <div class="btn-group">
+                                                        <a href="#" class="btn btn-color1">Xem đơn </a>
+                                                        <a href="#" class="btn btn-default">Hủy đơn</a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>100000018</td>
+                                                <td>3/02/14</td>
+                                                <td>Lộc</td>
+                                                <td><span class="price">200.000đ</span></td>
+                                                <td class="text-color"><em>Đã giao</em></td>
+                                                <td class="text-center last">
+                                                    <div class="btn-group">
+                                                        <a href="#" class="btn btn-color1">Xem đơn</a>
+                                                        <a href="#" class="btn btn-default"><del>Hủy đơn</del></a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>100000017</td>
+                                                <td>1/02/14</td>
+                                                <td>Lộc</td>
+                                                <td><span class="price">2.900.000đ</span></td>
+                                                <td class="text-color"><em>Đã giao</em></td>
+                                                <td class="text-center last">
+                                                    <div class="btn-group">
+                                                        <a href="#" class="btn btn-color1">Xem đơn</a>
+                                                        <a href="#" class="btn btn-default"><del>Hủy đơn</del></a>
+                                                    </div>
+                                                </td>
+                                            </tr>
 
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <!-- /Table  -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /My Order Table -->
+                        <!-- Sidebar -->
+                        <div id="sidebar" class="sidebar col-sm-3 col-md-3 col-lg-3">
+                            <div class="widget">
+                                <h3>TÀI KHOẢN</h3>
+                                <!-- menu-->
+                                <div id="sidebar-nav">
+                                    <ul class="sidebar-nav">
+                                        <li>
+                                            <a href="my-account.html"><i class="fas fa-cogs"></i>Thông số của bạn</a>
+                                        </li>
+                                        <li>
+                                            <a href="user.html"><i class="fa fa-user item-icon"></i>Thông tin tài khoản</a>
+                                        </li>
 
-                <!-- Nav -->
-
-
-                <!-- Banner -->
-                <section id="banner">
-                    <div class="inner">
-                        <header>
-                            <h1>This is hiBABY</h1>
-                            <p>Aliquam libero augue varius non odio nec faucibus congue<br />felis quisque a diam rutrum tempus massa accumsan faucibus purus.</p>
-                        </header>
-                        <a href="#main" class="button big scrolly"">Learn More</a>
+                                        <li>
+                                            <a href="my-account.html"><i class="fa fa-shopping-cart item-icon"></i>Đơn hàng của bạn</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- /menu-->
+                            </div>
+                        </div>
+                        <!-- /Sidebar -->
                     </div>
-                </section>
-
-                <!-- Main -->
-                <div id="main">
-
-                    <!-- Section -->
-                    <section class="wrapper style1">
-                        <div class="inner">
-                            <!-- 2 Columns -->
-                            <div class="flex flex-2">
-                                <div class="col col1">
-                                    <div class="image round1 fit">
-                                        <a href="generic.html" class="link"><img src="images/product/b5.jpg" alt="" /></a>
-                                    </div>
-                                </div>
-                                <div class="col col2">
-                                    <h3>Maecenas a gravida quam</h3>
-                                    <p>Etiam posuere hendrerit arcu, ac blandit nulla. Sed congue malesuada nibh, a varius odio vehicula aliquet. Aliquam consequat, nunc quis sollicitudin aliquet, enim magna cursus auctor lacinia nunc ex blandit augue. Ut vitae neque fermentum, luctus elit fermentum, porta augue. Nullam ultricies, turpis at fermentum iaculis, nunc justo dictum dui, non aliquet erat nibh non ex.</p>
-                                    <p>Sed congue malesuada nibh, a varius odio vehicula aliquet. Aliquam consequat, nunc quis sollicitudin aliquet, enim magna cursus auctor lacinia nunc ex blandit augue. Ut vitae neque fermentum, luctus elit fermentum, porta augue. Nullam ultricies, turpis at fermentum iaculis, nunc justo dictum dui, non aliquet erat nibh non ex. </p>
-                                    <a href="#" class="button">Learn More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-
-                    <!-- Section -->
-                    <section class="wrapper style2">
-                        <div class="inner">
-                            <div class="flex flex-2">
-                                <div class="col col2">
-                                    <h3>Suspendisse quis massa vel justo</h3>
-                                    <p>Etiam posuere hendrerit arcu, ac blandit nulla. Sed congue malesuada nibh, a varius odio vehicula aliquet. Aliquam consequat, nunc quis sollicitudin aliquet, enim magna cursus auctor lacinia nunc ex blandit augue. Ut vitae neque fermentum, luctus elit fermentum, porta augue. Nullam ultricies, turpis at fermentum iaculis, nunc justo dictum dui, non aliquet erat nibh non ex.</p>
-                                    <p>Sed congue malesuada nibh, a varius odio vehicula aliquet. Aliquam consequat, nunc quis sollicitudin aliquet, enim magna cursus auctor lacinia nunc ex blandit augue. Ut vitae neque fermentum, luctus elit fermentum, porta augue. Nullam ultricies, turpis at fermentum iaculis, nunc justo dictum dui, non aliquet erat nibh non ex. </p>
-                                    <a href="#" class="button">Learn More</a>
-                                </div>
-                                <div class="col col1 first">
-                                    <div class="image round1 fit">
-                                        <a href="generic.html" class="link"><img src="images/pic02.jpg" alt="" /></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-
-                    <!-- Section -->
-                    <section class="wrapper style1">
-                        <div class="inner">
-                            <header class="align-center">
-                                <h2>Aliquam ipsum purus dolor</h2>
-                                <p>Cras sagittis turpis sit amet est tempus, sit amet consectetur purus tincidunt.</p>
-                            </header>
-                            <div class="flex flex-3">
-                                <div class="col align-center">
-                                    <div class="image round1 fit">
-                                        <img src="images/pic03.jpg" alt="" />
-                                    </div>
-                                    <p>Sed congue elit malesuada nibh, a varius odio vehicula aliquet. Aliquam consequat, nunc quis sollicitudin aliquet. </p>
-                                    <a href="#" class="button">Learn More</a>
-                                </div>
-                                <div class="col align-center">
-                                    <div class="image round1 fit">
-                                        <img src="images/pic05.jpg" alt="" />
-                                    </div>
-                                    <p>Sed congue elit malesuada nibh, a varius odio vehicula aliquet. Aliquam consequat, nunc quis sollicitudin aliquet. </p>
-                                    <a href="#" class="button">Learn More</a>
-                                </div>
-                                <div class="col align-center">
-                                    <div class="image round1 fit">
-                                        <img src="images/pic04.jpg" alt="" />
-                                    </div>
-                                    <p>Sed congue elit malesuada nibh, a varius odio vehicula aliquet. Aliquam consequat, nunc quis sollicitudin aliquet. </p>
-                                    <a href="#" class="button">Learn More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-
                 </div>
-
-                <!-- Footer -->
-                <footer id="footer">
-                    <div class="copyright">
-                        <ul class="icons">
-                            <li><a href="#" class="fab fa-twitter"><span class="label">Twitter</span></a></li>
-                            <li><a href="#" class="fab fa-facebook"><span class="label">Facebook</span></a></li>
-                            <li><a href="#" class="fab fa-instagram"><span class="label">Instagram</span></a></li>
-                            <li><a href="#" class="fab fa-snapchat"><span class="label">Snapchat</span></a></li>
-                        </ul>
-                        <p>&copy; Untitled. All rights reserved. Design: <a href="https://templated.co">TEMPLATED</a>. Images: <a href="https://unsplash.com">Unsplash</a>.</p>
-                    </div>
-                </footer>
-
-                <!-- Scripts -->
-                <script src="assets/js/jquery.min.js"></script>
-                <script src="assets/js/jquery.scrolly.min.js"></script>
-                <script src="assets/js/jquery.scrollex.min.js"></script>
-                <script src="assets/js/skel.min.js"></script>
-                <script src="assets/js/util.js"></script>
-                <script src="assets/js/main.js"></script>
             </div>
-
         </div>
         <!---->
         <!-- Brand Section Start -->

@@ -20,9 +20,9 @@ input
     outline: none;
 }
 .text-seach{
-    font-size: 13px;
-    padding: 10px 10px 5px 10px;
-    height: 34.75px;
+    font-size: 13px !important;
+    padding: 10px 10px 5px 10px !important;
+    height: 34.75px !important;
 }
 .social-in{
     margin-top: 0px;

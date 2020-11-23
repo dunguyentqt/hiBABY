@@ -135,8 +135,15 @@ ul.header-in{
     margin-left: 90px !important;
 }
 .bt_create{
+    float: right;
 
 }
 .bt_login{
     margin: auto;
+}
+.dangnhap{
+    width: 330px !important;
+}
+.taotaikhoan{
+    width: 330px !important;
 }
