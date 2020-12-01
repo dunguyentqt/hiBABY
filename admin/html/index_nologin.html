@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords"
+          content="wrappixel, admin dashboard, html css dashboard, web dashboard, bootstrap 4 admin, bootstrap 4, css3 dashboard, bootstrap 4 dashboard, AdminWrap lite admin bootstrap 4 dashboard, frontend, responsive bootstrap 4 admin template, Admin-Pro lite design, Admin-Pro lite dashboard bootstrap 4 dashboard template">
+    <meta name="description"
+          content="Admin-Pro Lite is powerful and clean admin dashboard template, inpired from Bootstrap Framework">
+    <meta name="robots" content="noindex,nofollow">
+    <title>Admin-Pro Lite Template by WrapPixel</title>
+    <link rel="stylesheet" href="css/css_myacc.css">
+    <link rel="canonical" href="https://www.wrappixel.com/templates/adminpro-lite/" />
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon.png">
+    <!-- Bootstrap Core CSS -->
+    <link href="../assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- This page CSS -->
+    <!-- chartist CSS -->
+    <link href="../assets/plugins/chartist-js/dist/chartist.min.css" rel="stylesheet">
+    <link href="../assets/plugins/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.css" rel="stylesheet">
+    <!--c3 CSS -->
+    <link href="../assets/plugins/c3-master/c3.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Dashboard 1 Page CSS -->
+    <link href="css/pages/dashboard.css" rel="stylesheet">
+    <!-- You can change the theme colors from here -->
+    <link href="css/colors/default-dark.css" id="theme" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <script>
+        $(document).ready(function(){
+            // Activate tooltip
+            $('[data-toggle="tooltip"]').tooltip();
+
+            // Select/Deselect checkboxes
+            var checkbox = $('table tbody input[type="checkbox"]');
+            $("#selectAll").click(function(){
+                if(this.checked){
+                    checkbox.each(function(){
+                        this.checked = true;
+                    });
+                } else{
+                    checkbox.each(function(){
+                        this.checked = false;
+                    });
+                }
+            });
+            checkbox.click(function(){
+                if(!this.checked){
+                    $("#selectAll").prop("checked", false);
+                }
+            });
+        });
+    </script>
+</head>
+
+<body class="fix-header fix-sidebar card-no-border">
+<!-- ============================================================== -->
+<!-- Preloader - style you can find in spinners.css -->
+<!-- ============================================================== -->
+<div class="preloader">
+    <div class="loader">
+        <div class="loader__figure"></div>
+        <p class="loader__label">Admin Pro</p>
+    </div>
+</div>
+<!-- ============================================================== -->
+<!-- Main wrapper - style you can find in pages.scss -->
+<!-- ============================================================== -->
+<div id="main-wrapper">
+    <!-- ============================================================== -->
+    <!-- Topbar header - style you can find in pages.scss -->
+    <!-- ============================================================== -->
+    <header class="topbar" style="height: 70px; box-shadow: 2px 2px 7px #d0cfcf ">
+        <nav class="navbar top-navbar navbar-expand-md navbar-light" style="height: 70px">
+            <!-- ============================================================== -->
+            <!-- Logo -->
+            <!-- ============================================================== -->
+            <div class="navbar-header" style="width: 265px">
+                <a class="navbar-brand" href="index_nologin.html">
+                    <b style="width: 205px;">
+                        <!--                            <img src="../assets/images/logo-icon.png" alt="homepage" class="dark-logo" />-->
+                        <!--                        <img style="float: left; margin-top: 17px;" src="../assets/images/users/logohibaby.png" width="70px" height="40px" alt="homepage" class="dark-logo" />-->
+                        <div style="font-size: 25px; height: 70px; flex-direction: row; display: flex">
+                            <p style="font-weight: bold;height: 70px;">Quản trị  </p>
+                            <p style="margin-left: 10px;float: right">web</p>
+                        </div>
+                    </b>
+                </a>
+            </div>
+            <!-- ============================================================== -->
+            <!-- End Logo -->
+            <!-- ============================================================== -->
+            <div class="navbar-collapse" style="margin-bottom: -90px">
+                <!-- ============================================================== -->
+                <!-- toggle and nav items -->
+                <!-- ============================================================== -->
+                <ul class="navbar-nav mr-auto">
+                    <!-- This is  -->
+                    <li class="nav-item"> <a class="nav-link nav-toggler hidden-md-up waves-effect waves-dark"
+                                             href="javascript:void(0)"><i class="ti-menu"></i></a> </li>
+                </ul>
+                <!-- ============================================================== -->
+                <!-- User profile and search -->
+                <!-- ============================================================== -->
+                <div id="inf-acc" style="margin-top: -93px">
+                    <ul class="navbar-nav my-lg-0 ul-big">
+                        <!-- ============================================================== -->
+                        <!-- Search -->
+                        <!-- ============================================================== -->
+                        <li class="nav-item hidden-xs-down search-box"> <a
+                                class="nav-link hidden-sm-down waves-effect waves-dark" href="javascript:void(0)"><i
+                                class="ti-search"></i></a>
+                            <form class="app-search">
+                                <input type="text" class="form-control" placeholder="Search & enter"> <a
+                                    class="srh-btn"><i class="ti-close"></i></a>
+                            </form>
+                        </li>
+                        <!-- ============================================================== -->
+                        <!-- Profile -->
+                        <!-- ============================================================== -->
+                        <li style="margin-top: 15px;">
+                            <a  href="#login_account" class="btn " data-toggle="modal">
+                                <i style="float: left" class="mdi mdi-login"></i>
+                                <div style="float: left; margin-left: 10px">Đăng nhập</div>
+                            </a>
+                        </li>
+                        <li style="margin-top: 15px; ">
+                            <a  href="#register_account" class="btn " data-toggle="modal">
+                                <i style="float: left" class="mdi mdi-account"></i>
+                                <div style="float: left; margin-left: 10px">Đăng ký</div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- ============================================================== -->
+    <!-- End Topbar header -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- Left Sidebar - style you can find in sidebar.scss  -->
+    <!-- ============================================================== -->
+    <aside class="left-sidebar">
+        <!-- Sidebar scroll-->
+        <div class="scroll-sidebar">
+            <!-- Sidebar navigation-->
+            <nav class="sidebar-nav">
+                <ul id="sidebarnav">
+                    <li>
+                        <a class="waves-effect waves-dark" href="index_nologin.html" aria-expanded="false">
+                            <i class="mdi mdi-gauge"></i>
+                            <span class="hide-menu">Tổng quan</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a  href="#error_account" data-toggle="modal">
+<!--                        <a class="waves-effect waves-dark" href="#deleteEmployeeModal" aria-expanded="false">-->
+                            <i class="mdi mdi-account-check"></i>
+                            <span class="hide-menu">Hồ sơ</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a  href="#error_account" data-toggle="modal">
+                            <i class="mdi mdi-account-multiple"></i>
+                            <span class="hide-menu">Quản lý người dùng</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a  href="#error_account" data-toggle="modal">
+                            <i class="mdi mdi-basket"></i>
+                            <span class="hide-menu">Quản lý sản phẩm</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a  href="#error_account" data-toggle="modal">
+                            <i class="mdi mdi-bing"></i>
+                            <span class="hide-menu">Quản lý đơn hàng</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a  href="#error_account" data-toggle="modal">
+                            <i class="mdi mdi-auto-fix"></i>
+                            <span class="hide-menu">Quản lý thương hiệu</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a  href="#error_account" data-toggle="modal">
+                            <i class="mdi mdi-monitor"></i>
+                            <span class="hide-menu">Quản lý thanh toán</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a  href="#error_account" data-toggle="modal">
+                            <i class="mdi mdi-table"></i>
+                            <span class="hide-menu">Quản lý danh mục</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a  href="#error_account" data-toggle="modal">
+                            <i class="mdi mdi-sale"></i>
+                            <span class="hide-menu">Quản lý voucher</span>
+                        </a>
+                    </li>
+                </ul>
+
+            </nav>
+            <!-- End Sidebar navigation -->
+        </div>
+        <!-- End Sidebar scroll-->
+    </aside>
+    <!-- ============================================================== -->
+    <!-- End Left Sidebar - style you can find in sidebar.scss  -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- Page wrapper  -->
+    <!-- ============================================================== -->
+    <div class="page-wrapper">
+        <!-- ============================================================== -->
+        <!-- Container fluid  -->
+        <!-- ============================================================== -->
+        <div class="container-fluid">
+            <!-- ============================================================== -->
+            <!-- Bread crumb and right sidebar toggle -->
+            <!-- ============================================================== -->
+            <div class="row page-titles">
+                <div class="col-md-5 align-self-center">
+                    <h1 class="text-themecolor">Lược đồ</h1>
+                </div>
+                <div class="col-md-7 align-self-center">
+                </div>
+            </div>
+            <!-- ============================================================== -->
+            <!-- End Bread crumb and right sidebar toggle -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- Sales overview chart -->
+            <!-- ============================================================== -->
+            <div class="row">
+                <div class="col-lg-9 col-md-12">
+                    <div class="card" style=" box-shadow: 2px 2px 10px #d0cfcf">
+                        <div class="card-body">
+                            <div class="d-flex">
+                                <div>
+                                    <h3 class="card-title m-b-5"><span class="lstick"></span>Tổng quan bán hàng</h3>
+                                </div>
+                                <div class="ml-auto">
+                                    <select class="custom-select b-0">
+                                        <option selected="">T1 2017</option>
+                                        <option value="1">T2 2017</option>
+                                        <option value="2">T3 2017</option>
+                                        <option value="3">T4 2017</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div id="sales-overview2" class="p-relative" style="height:360px;"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ============================================================== -->
+                <!-- visit charts-->
+                <!-- ============================================================== -->
+                <div class="col-lg-3 col-md-12">
+                    <div class="card" style=" box-shadow: 5px 2px 10px #d0cfcf">
+                        <div class="card-body">
+                            <h4 class="card-title"><span class="lstick"></span>Truy cập</h4>
+                            <div id="visitor" style="height:250px; width:100%;"></div>
+                            <table class="table vm font-14">
+                                <tr>
+                                    <td class="b-0">Mobiles</td>
+                                    <td class="text-right font-medium b-0">38.5%</td>
+                                </tr>
+                                <tr>
+                                    <td>Tablet</td>
+                                    <td class="text-right font-medium">30.8%</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ============================================================== -->
+            <!-- Projects of the month -->
+            <!-- ============================================================== -->
+            <div class="row" >
+                <div class="col-lg-6 col-md-12" id="table-positive">
+                    <div class="card" style=" box-shadow: 5px 2px 10px #d0cfcf">
+                        <div class="card-body">
+                            <div class="d-flex">
+                                <div>
+                                    <h4 class="card-title"><span class="lstick"></span>Tích cực của tháng</h4>
+                                </div>
+                            </div>
+                            <div class="table-responsive m-t-20">
+                                <table class="table vm no-th-brd no-wrap pro-of-month table-striped table-hover">
+                                    <thead>
+                                    <tr>
+                                        <th colspan="2">Người dùng</th>
+                                        <th>Email</th>
+                                        <th>Hoạt động</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td style="width:50px;"><span class="round"><img
+                                                src="../assets/images/users/gialoc.jpg" alt="user"
+                                                width="50"></span></td>
+                                        <td>
+                                            <div class="text-center" style="flex-direction: row; display: flex; height: 20px ">
+                                                <div style=" background: #49d460; width: 10px; height: 10px; border-radius: 50%; margin-top: 7px; margin-right: 5px"> </div>
+                                                <p>Gia Lộc</p>
+                                            </div>
+                                            <small class="text-muted">Quản trị</small>
+                                        </td>
+                                        <td>loc@gmail.com</td>
+                                        <td>76.5%</td>
+                                    </tr>
+
+                                    <tr class="active">
+                                        <td><span class="round"><img src="../assets/images/users/baotrang.jpg"
+                                                                     alt="user" width="50"></span></td>
+                                        <td>
+                                            <div class="text-center" style="flex-direction: row; display: flex; height: 20px ">
+                                                <div style=" background: #cb0000; width: 10px; height: 10px; border-radius: 50%; margin-top: 7px; margin-right: 5px"> </div>
+                                                <p>Bảo Trang</p>
+                                            </div>
+                                            <small class="text-muted">Quản trị</small>
+                                        </td>
+                                        <td>trang@gmail.com</td>
+                                        <td>75.7%</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><span class="round round-success"><img
+                                                src="../assets/images/users/congdu.jpg" alt="user"
+                                                width="50"></span></td>
+                                        <td>
+                                            <div class="text-center" style="flex-direction: row; display: flex; height: 20px ">
+                                                <div style=" background: #49d460; width: 10px; height: 10px; border-radius: 50%; margin-top: 7px; margin-right: 5px"> </div>
+                                                <p>Công Dự</p>
+                                            </div>
+                                            <small class="text-muted">Quản trị</small>
+                                        </td>
+                                        <td>du@gmail.com</td>
+                                        <td>75.5%</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><span class="round round-primary"><img
+                                                src="../assets/images/users/phuocdat.jpg" alt="user"
+                                                width="50"></span></td>
+                                        <td>
+                                            <div class="text-center" style="flex-direction: row; display: flex; height: 20px ">
+                                                <div style=" background: #49d460; width: 10px; height: 10px; border-radius: 50%; margin-top: 7px; margin-right: 5px"> </div>
+                                                <p>Phước Đạt</p>
+                                            </div>
+                                            <small class="text-muted">Người dùng</small>
+                                        </td>
+                                        <td>hiepsidat@gmail.com</td>
+                                        <td>32.7%</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><span class="round round-warning"><img
+                                                src="../assets/images/users/minhnguyen.jpg" alt="user"
+                                                width="50" height="47"></span></td>
+                                        <td>
+                                            <div class="text-center" style="flex-direction: row; display: flex; height: 20px ">
+                                                <div style=" background: #d90031; width: 10px; height: 10px; border-radius: 50%; margin-top: 7px; margin-right: 5px"> </div>
+                                                <p>Minh Nguyên</p>
+                                            </div>
+                                            <small class="text-muted">Người dùng</small>
+                                        </td>
+                                        <td>minhint@gmail.com</td>
+                                        <td>22.9%</td>
+                                    </tr>
+
+                                    </tbody>
+                                </table>
+                                <ul style="float: right" class="pagination">
+                                    <li style="margin-right: 20px; margin-top: 5px" class="page-item disabled"><a href="#table-positive">Trước</a></li>
+                                    <li class="page-item active"><a href="#" class="page-link">1</a></li>
+                                    <li class="page-item"><a href="#table-positive" class="page-link">2</a></li>
+                                    <li class="page-item"><a href="#table-positive" class="page-link">3</a></li>
+                                    <li class="page-item"><a href="#table-positive" class="page-link">4</a></li>
+                                    <li class="page-item"><a href="#table-positive" class="page-link">5</a></li>
+                                    <li style="margin-left: 20px;margin-top: 5px" class="page-item"><a href="#table-positive" class="">Sau</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- contact -->
+                <div class="col-lg-6 col-md-12" id="table-topsold">
+                    <div class="card" style=" box-shadow: 5px 2px 10px #d0cfcf">
+                        <div class="card-body">
+                            <div class="d-flex">
+                                <div>
+                                    <h4 class="card-title"><span class="lstick"></span>Top bán chạy</h4>
+                                </div>
+                            </div>
+                            <div class="table-responsive m-t-20">
+                                <table class="table vm no-th-brd no-wrap pro-of-month table-striped table-hover">
+                                    <thead>
+                                    <tr>
+                                        <th colspan="2">Sản phẩm</th>
+                                        <th>Tên sản phẩm</th>
+                                        <th>Lượt mua</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr class="active">
+                                        <td style="width:50px;"><span class="round"><img
+                                                src="../assets/images/users/aokhoathoodie.jpg" alt="user"
+                                                width="50" height="47"></span></td>
+                                        <td>
+                                            <h6>AK01H1</h6><small class="text-muted"></small>
+                                        </td>
+                                        <td>Áo khoát hoodie</td>
+                                        <td>217 <i class="fa fa-arrow-up" aria-hidden="true" style="color: #2db5f5; margin-left: 20px; font-size: 20px"></i></td>
+                                    </tr>
+
+                                    <tr class="active">
+                                        <td style="width:50px;"><span class="round"><img
+                                                src="../assets/images/users/quannidai.jpg" alt="user"
+                                                width="50" height="47"></span></td>
+                                        <td>
+                                            <h6>QN01D2</h6><small class="text-muted"></small>
+                                        </td>
+                                        <td>Quẩn nỉ dài</td>
+                                        <td>202 <i class="fa fa-arrow-up" aria-hidden="true" style="color: #2db5f5; margin-left: 16px; font-size: 20px"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="round round-success"><img
+                                                src="../assets/images/users/aothunngan.jpg" alt="user"
+                                                width="50" height="47"></span></td>
+                                        <td>
+                                            <h6>DV03C1</h6><small class="text-muted"></small>
+                                        </td>
+                                        <td>Áo thun ngắn</td>
+                                        <td>192 <i class="fa fa-arrow-down" aria-hidden="true" style="color: #e30000; margin-left: 20px; font-size: 20px"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="round round-primary"><img
+                                                src="../assets/images/users/depxongon.jpg" alt="user"
+                                                width="50" height="47"></span></td>
+                                        <td>
+                                            <h6>AT01D01</h6><small class="text-muted"></small>
+                                        </td>
+                                        <td>Dép xỏ ngón</td>
+                                        <td>188 <i class="fa fa-arrow-up" aria-hidden="true" style="color: #2db5f5; margin-left: 18px; font-size: 20px"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="round round-primary"><img
+                                                src="../assets/images/users/damjean.jpg" alt="user"
+                                                width="50" height="47"></span></td>
+                                        <td>
+                                            <h6>AT01N01</h6><small class="text-muted"></small>
+                                        </td>
+                                        <td>Đầm jean xanh</td>
+                                        <td>187 <i class="fa fa-arrow-down" aria-hidden="true" style="color: #e5012d; margin-left: 19px; font-size: 20px"></i></td>
+                                    </tr>
+
+                                    </tbody>
+                                </table>
+                                <ul style="float: right" class="pagination">
+                                    <li style="margin-right: 20px; margin-top: 5px" class="page-item disabled"><a href="#table-topsold">Trước</a></li>
+                                    <li class="page-item active"><a href="#" class="page-link">1</a></li>
+                                    <li class="page-item"><a href="#table-topsold" class="page-link">2</a></li>
+                                    <li class="page-item"><a href="#table-topsold" class="page-link">3</a></li>
+                                    <li class="page-item"><a href="#table-topsold" class="page-link">4</a></li>
+                                    <li class="page-item"><a href="#table-topsold" class="page-link">5</a></li>
+                                    <li style="margin-left: 20px;margin-top: 5px" class="page-item"><a href="#table-topsold" class="">Sau</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ============================================================== -->
+            <!-- Blog and website visit -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- End Page Content -->
+            <!-- ============================================================== -->
+        </div>
+        <!-- ============================================================== -->
+        <!-- End Container fluid  -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- footer -->
+        <!-- ============================================================== -->
+        <footer class="footer" style=" box-shadow: 2px 2px 10px #d0cfcf"> © 2020 Admin Pro by <a href="https://www.wrappixel.com/">wrappixel.com</a> </footer>
+        <!-- ============================================================== -->
+        <!-- End footer -->
+        <!-- ============================================================== -->
+    </div>
+    <!-- ============================================================== -->
+    <!-- End Page wrapper  -->
+    <!-- ============================================================== -->
+</div>
+<!-- ============================================================== -->
+<!-- End Wrapper -->
+<!-- ============================================================== -->
+<!-- ============================================================== -->
+<!-- All Jquery -->
+<!-- ============================================================== -->
+<script src="../assets/plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap popper Core JavaScript -->
+<script src="../assets/plugins/bootstrap/js/popper.min.js"></script>
+<script src="../assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+<!-- slimscrollbar scrollbar JavaScript -->
+<script src="js/perfect-scrollbar.jquery.min.js"></script>
+<!--Wave Effects -->
+<script src="js/waves.js"></script>
+<!--Menu sidebar -->
+<script src="js/sidebarmenu.js"></script>
+<!--Custom JavaScript -->
+<script src="js/custom.min.js"></script>
+<!-- ============================================================== -->
+<!-- This page plugins -->
+<!-- ============================================================== -->
+<script src="../assets/plugins/chartist-js/dist/chartist.min.js"></script>
+<script src="../assets/plugins/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js"></script>
+<!--c3 JavaScript -->
+<script src="../assets/plugins/d3/d3.min.js"></script>
+<script src="../assets/plugins/c3-master/c3.min.js"></script>
+<!-- Chart JS -->
+<script src="js/dashboard.js"></script>
+
+<!--ADD, DELETE, EDIT-->
+<div id="login_account" class="modal ">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form>
+                <div class="modal-header">
+                    <h4 class="modal-title">Đăng nhập</h4>
+                    <!--                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>-->
+                    <a href="index_nologin.html"><button type="button" class="close" aria-hidden="true">&times;</button></a>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label>ID người dùng</label>
+                        <input type="text" class="form-control" required minlength="4">
+                    </div>
+                    <div class="form-group">
+                        <label>Mật khẩu</label>
+                        <input type="password" class="form-control" required maxlength="30" minlength="6">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a  href="#forgotPassword" data-toggle="modal" style="font-weight: inherit; margin-right: 150px" onclick="notify_hidden()">Quên mật khẩu</a>
+                    <a href="index_nologin.html"> <input type="button" class="btn btn-default" value="Hủy"></a>
+                    <a href="index.html"> <input type="button" class="btn btn-success" value="Đăng nhập" required></a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div id="register_account" class="modal ">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form>
+                <div class="modal-header">
+                    <h4 class="modal-title">Đăng ký</h4>
+                    <!--                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>-->
+                    <a href="index_nologin.html"><button type="button" class="close" aria-hidden="true">&times;</button></a>
+                </div>
+                <div class="modal-body">
+
+                    <div class="form-group">
+                        <div class="form-group">
+                            <label>ID người dùng</label>
+                            <input type="text" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Mật khẩu</label>
+                            <input type="password" class="form-control" required minlength="6" maxlength="30" min="0">
+                        </div>
+                        <div class="form-group">
+                            <label>Nhập lại mật khẩu</label>
+                            <!--                            <textarea class="form-control" required></textarea>-->
+                            <input type="text" class="form-control" required minlength="6" maxlength="30" min="0">
+                        </div>
+                        <div class="form-group">
+                            <label>Họ & tên</label>
+                            <input type="text" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input type="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Số điện thoại</label>
+                            <input type="number" class="form-control" required min="0" maxlength="10">
+                        </div>
+                        <div class="form-group">
+                            <label>Địa chỉ</label>
+                            <textarea class="form-control" required></textarea>
+                        </div>
+                    </div>
+
+                    <div class="modal-footer">
+                        <a href="index_nologin.html"> <input type="button" class="btn btn-default" value="Hủy"></a>
+                        <a href="#wait_accept" class="btn " data-toggle="modal" style="margin-right: -25px">
+                            <input type="submit" class="btn btn-info" value="Đăng ký" onclick="notify_hidden()">
+                        </a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div id="error_account" class="modal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form>
+                <div class="modal-header">
+                    <h4 class="modal-title" style="font-weight: bold; color: red">Lỗi</h4>
+                    <a href="index_nologin.html"><button type="button" class="close" aria-hidden="true">&times;</button></a>
+                </div>
+                <div class="modal-body">
+                        <p>Bạn chưa đăng nhập tài khoản</p>
+                        <p class="text-warning"><small>Hành động không thể thực hiện!</small></p>
+                </div>
+                <div class="modal-footer">
+                    <a href="index_nologin.html"> <input type="button" class="btn btn-danger" value="Đã hiểu"></a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div id="forgotPassword" class="modal ">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form>
+                <div class="modal-header">
+                    <h4 class="modal-title">Quên mật khẩu</h4>
+                    <!--                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>-->
+                    <a href="index_nologin.html">
+                        <button type="button" class="close" aria-hidden="true">&times;</button>
+                    </a>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <div class="form-group">
+                            <label>Mã xác nhận</label>
+                            <input type="number" class="form-control" required maxlength="6" min="0">
+                        </div>
+                        <div class="form-group">
+                            <label>Mật khẩu mới</label>
+                            <input type="password" class="form-control" required minlength="6" maxlength="30" min="0">
+                        </div>
+                        <div class="form-group">
+                            <label>Nhập lại mật khẩu mới</label>
+                            <!--                            <textarea class="form-control" required></textarea>-->
+                            <input type="text" class="form-control" required minlength="6" maxlength="30" min="0">
+                        </div>
+
+                    <div class="modal-footer">
+                        <a href="index_nologin.html"> <input type="button" class="btn btn-default" value="Hủy"></a>
+                        <input type="submit" class="btn btn-info" value="Đổi mật khẩu">
+                    </div>
+                </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div id="wait_accept" class="modal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form> 
+                <div class="modal-header">
+                    <h4 class="modal-title" style="font-weight: bold; color: #097dd7">Thông báo</h4>
+                    <a href="index_nologin.html"><button type="button" class="close" aria-hidden="true">&times;</button></a>
+                </div>
+                <div class="modal-body">
+                    <p>Vui lòng chờ chấp nhận</p>
+                    <p class="text-warning"><small>Hãy thường xuyên kiểm tra Email của mình!</small></p>
+                </div>
+                <div class="modal-footer">
+                    <a href="index_nologin.html"> <input type="Submit" class="btn btn-success" value="Đã hiểu"></a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<script id="hidden">
+    function notify_hidden(){
+        document.getElementById("register_account").style="display: none";
+        document.getElementById("login_account").style="display: none";
+    }
+</script>
+</body>
+
+</html>

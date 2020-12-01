@@ -12,6 +12,7 @@
         content="Admin-Pro Lite is powerful and clean admin dashboard template, inpired from Bootstrap Framework">
     <meta name="robots" content="noindex,nofollow">
     <title>Admin-Pro Lite Template by WrapPixel</title>
+    <link rel="stylesheet" href="css/css_myacc.css">
     <link rel="canonical" href="https://www.wrappixel.com/templates/adminpro-lite/" />
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon.png">
@@ -55,23 +56,26 @@
         <!-- Topbar header - style you can find in pages.scss -->
         <!-- ============================================================== -->
         <header class="topbar" style="height: 70px; box-shadow: 2px 2px 7px #d0cfcf ">
-            <nav class="navbar top-navbar navbar-expand-md navbar-light">
+            <nav class="navbar top-navbar navbar-expand-md navbar-light" style="height: 70px">
                 <!-- ============================================================== -->
                 <!-- Logo -->
                 <!-- ============================================================== -->
                 <div class="navbar-header" style="width: 265px">
                     <a class="navbar-brand" href="index.html">
-                        <b style="width: 205px">
+                        <b style="width: 205px;">
 <!--                            <img src="../assets/images/logo-icon.png" alt="homepage" class="dark-logo" />-->
 <!--                        <img style="float: left; margin-top: 17px;" src="../assets/images/users/logohibaby.png" width="70px" height="40px" alt="homepage" class="dark-logo" />-->
-                            <div style="font-size: 25px; height: 70px; margin-left: 10px"><p style="font-weight: bold;height: 70px;float: left; margin-left: 20px">Quản trị  </p> <p style="margin-left: 10px;float: right">web</p> </div>
+                            <div style="font-size: 25px; height: 70px; flex-direction: row; display: flex">
+                                <p style="font-weight: bold;height: 70px;">Quản trị  </p>
+                                <p style="margin-left: 10px;float: right">web</p>
+                            </div>
                         </b>
                     </a>
                 </div>
                 <!-- ============================================================== -->
                 <!-- End Logo -->
                 <!-- ============================================================== -->
-                <div class="navbar-collapse" style="margin-bottom: 38px">
+                <div class="navbar-collapse" style="margin-bottom: -90px">
                     <!-- ============================================================== -->
                     <!-- toggle and nav items -->
                     <!-- ============================================================== -->
@@ -83,27 +87,45 @@
                     <!-- ============================================================== -->
                     <!-- User profile and search -->
                     <!-- ============================================================== -->
-                    <ul class="navbar-nav my-lg-0">
-                        <!-- ============================================================== -->
-                        <!-- Search -->
-                        <!-- ============================================================== -->
-                        <li class="nav-item hidden-xs-down search-box"> <a
-                                class="nav-link hidden-sm-down waves-effect waves-dark" href="javascript:void(0)"><i
-                                    class="ti-search"></i></a>
-                            <form class="app-search">
-                                <input type="text" class="form-control" placeholder="Search & enter"> <a
-                                    class="srh-btn"><i class="ti-close"></i></a>
-                            </form>
-                        </li>
-                        <!-- ============================================================== -->
-                        <!-- Profile -->
-                        <!-- ============================================================== -->
-                        <li style="margin-top: 22px;margin-left: 30px">Xin chào <a href="profile.html"> Trang Lộc Dự</a> !</li>
-                        <li class="nav-item">
-                            <a class="nav-link waves-effect waves-dark" href="profile.html"><img src="../assets/images/users/team.jpg"
-                                    alt="user" class="profile-pic" /></a>
-                        </li>
-                    </ul>
+                    <div id="inf-acc" style="margin-top: -93px">
+                        <ul class="navbar-nav my-lg-0 ul-big">
+                            <!-- ============================================================== -->
+                            <!-- Search -->
+                            <!-- ============================================================== -->
+                            <li class="nav-item hidden-xs-down search-box"> <a
+                                    class="nav-link hidden-sm-down waves-effect waves-dark" href="javascript:void(0)"><i
+                                        class="ti-search"></i></a>
+                                <form class="app-search">
+                                    <input type="text" class="form-control" placeholder="Search & enter"> <a
+                                        class="srh-btn"><i class="ti-close"></i></a>
+                                </form>
+                            </li>
+                            <!-- ============================================================== -->
+                            <!-- Profile -->
+                            <!-- ============================================================== -->
+                            <li style="margin-top: 22px;margin-left: 30px">Xin chào <a href="profile.html"> Trang Lộc Dự</a> !</li>
+                            <li class="li-big">
+                                <img style="margin-top: 22px; margin-left: 10px" src="../assets/images/users/team.jpg" alt="user" class="profile-pic" >
+                                <ul class="ul-small">
+                                    <li class="li-small li-small1">
+                                        <a  href="profile.html" >
+                                            <i style="float: left; margin-right: 15px" class="mdi mdi-account-check"></i>Hồ sơ
+                                        </a>
+                                    </li>
+                                    <li class="li-small li-small2">
+                                        <a  href="#forgotPassword" data-toggle="modal">
+                                            <i style="float: left; margin-right: 15px" class="mdi mdi-key"></i>Đổi mật khẩu
+                                        </a>
+                                    </li>
+                                    <li class="li-small li-small3">
+                                        <a  href="index_nologin.html" >
+                                            <i style="float: left; margin-right: 15px" class="mdi mdi-logout"></i>Đăng xuất
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </nav>
         </header>
@@ -248,7 +270,7 @@
                                                     <small class="text-muted">Quản trị</small>
                                                 </td>
                                                     <td>loc@gmail.com</td>
-                                                <td>76.5%</td>
+                                                <td>76.5% <i class="fa fa-arrow-down" aria-hidden="true" style="color: #f6004e; margin-left: 20px; font-size: 20px"></i></td>
                                             </tr>
 
                                             <tr class="active">
@@ -262,7 +284,7 @@
                                                     <small class="text-muted">Quản trị</small>
                                                 </td>
                                                 <td>trang@gmail.com</td>
-                                                <td>75.7%</td>
+                                                <td>75.7% <i class="fa fa-arrow-up" aria-hidden="true" style="color: #2db5f5; margin-left: 20px; font-size: 20px"></i></td>
                                             </tr>
 
                                             <tr>
@@ -277,7 +299,7 @@
                                                     <small class="text-muted">Quản trị</small>
                                                 </td>
                                                 <td>du@gmail.com</td>
-                                                <td>75.5%</td>
+                                                <td>75.5% <i class="fa fa-arrow-up" aria-hidden="true" style="color: #2db5f5; margin-left: 20px; font-size: 20px"></i></td>
                                             </tr>
 
                                             <tr>
@@ -292,7 +314,7 @@
                                                     <small class="text-muted">Người dùng</small>
                                                 </td>
                                                 <td>hiepsidat@gmail.com</td>
-                                                <td>32.7%</td>
+                                                <td>32.7% <i class="fa fa-arrow-down" aria-hidden="true" style="color: #f60025; margin-left: 20px; font-size: 20px"></i></td>
                                             </tr>
 
                                             <tr>
@@ -307,7 +329,7 @@
                                                     <small class="text-muted">Người dùng</small>
                                                 </td>
                                                 <td>minhint@gmail.com</td>
-                                                <td>22.9%</td>
+                                                <td>22.9% <i class="fa fa-arrow-up" aria-hidden="true" style="color: #2db5f5; margin-left: 20px; font-size: 20px"></i></td>
                                             </tr>
 
                                         </tbody>
@@ -462,6 +484,45 @@
     <script src="../assets/plugins/c3-master/c3.min.js"></script>
     <!-- Chart JS -->
     <script src="js/dashboard.js"></script>
+
+    <div id="forgotPassword" class="modal ">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <form>
+                    <div class="modal-header">
+                        <h4 class="modal-title">Quên mật khẩu</h4>
+                        <!--                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>-->
+                        <a href="index.html">
+                            <button type="button" class="close" aria-hidden="true">&times;</button>
+                        </a>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <div class="form-group">
+                                <label>Mật khẩu cũ</label>
+                                <input type="number" class="form-control" required maxlength="6" min="0">
+                            </div>
+                            <div class="form-group">
+                                <label>Mật khẩu mới</label>
+                                <input type="password" class="form-control" required minlength="6" maxlength="30" min="0">
+                            </div>
+                            <div class="form-group">
+                                <label>Nhập lại mật khẩu mới</label>
+                                <!--                            <textarea class="form-control" required></textarea>-->
+                                <input type="text" class="form-control" required minlength="6" maxlength="30" min="0">
+                            </div>
+
+                            <div class="modal-footer">
+                                <a href="index.html"> <input type="button" class="btn btn-default" value="Hủy"></a>
+                                <input type="submit" class="btn btn-info" value="Đổi mật khẩu">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
 </body>
 
 </html>

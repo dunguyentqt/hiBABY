@@ -12,6 +12,7 @@
         content="Admin-Pro Lite is powerful and clean admin dashboard template, inpired from Bootstrap Framework">
     <meta name="robots" content="noindex,nofollow">
     <title>Admin-Pro Lite Template by WrapPixel</title>
+    <link rel="stylesheet" href="css/css_myacc.css">
     <link rel="canonical" href="https://www.wrappixel.com/templates/adminpro-lite/" />
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/team.png">
@@ -75,23 +76,45 @@
                     <!-- ============================================================== -->
                     <!-- User profile and search -->
                     <!-- ============================================================== -->
-                    <ul class="navbar-nav my-lg-0">
-                        <!-- ============================================================== -->
-                        <!-- Search -->
-                        <!-- ============================================================== -->
-                        <li class="nav-item hidden-xs-down search-box"> <a class="nav-link hidden-sm-down waves-effect waves-dark" href="javascript:void(0)"><i class="ti-search"></i></a>
-                            <form class="app-search">
-                                <input type="text" class="form-control" placeholder="Search &amp; enter"> <a class="srh-btn"><i class="ti-close"></i></a>
-                            </form>
-                        </li>
-                        <!-- ============================================================== -->
-                        <!-- Profile -->
-                        <!-- ============================================================== -->
-                        <li style="margin-top: 22px;margin-left: 30px">Xin chào <a href="profile.html"> Trang Lộc Dự</a> !</li>
-                        <li class="nav-item">
-                            <a class="nav-link waves-effect waves-dark" href="profile.html"><img src="../assets/images/users/team.jpg" alt="user" class="profile-pic"></a>
-                        </li>
-                    </ul>
+                    <div id="inf-acc" >
+                        <ul class="navbar-nav my-lg-0 ul-big">
+                            <!-- ============================================================== -->
+                            <!-- Search -->
+                            <!-- ============================================================== -->
+                            <li class="nav-item hidden-xs-down search-box"> <a
+                                    class="nav-link hidden-sm-down waves-effect waves-dark" href="javascript:void(0)"><i
+                                    class="ti-search"></i></a>
+                                <form class="app-search">
+                                    <input type="text" class="form-control" placeholder="Search & enter"> <a
+                                        class="srh-btn"><i class="ti-close"></i></a>
+                                </form>
+                            </li>
+                            <!-- ============================================================== -->
+                            <!-- Profile -->
+                            <!-- ============================================================== -->
+                            <li style="margin-top: 22px;margin-left: 30px">Xin chào <a href="profile.html"> Trang Lộc Dự</a> !</li>
+                            <li class="li-big">
+                                <img style="margin-top: 22px; margin-left: 10px" src="../assets/images/users/team.jpg" alt="user" class="profile-pic" >
+                                <ul class="ul-small">
+                                    <li class="li-small li-small1">
+                                        <a  href="profile.html" >
+                                            <i style="float: left; margin-right: 15px" class="mdi mdi-account-check"></i>Hồ sơ
+                                        </a>
+                                    </li>
+                                    <li class="li-small li-small2">
+                                        <a  href="#forgotPassword" data-toggle="modal">
+                                            <i style="float: left; margin-right: 15px" class="mdi mdi-key"></i>Đổi mật khẩu
+                                        </a>
+                                    </li>
+                                    <li class="li-small li-small3">
+                                        <a  href="index_nologin.html" >
+                                            <i style="float: left; margin-right: 15px" class="mdi mdi-logout"></i>Đăng xuất
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </nav>
         </header>
@@ -289,6 +312,44 @@
     <script src="js/sidebarmenu.js"></script>
     <!--Custom JavaScript -->
     <script src="js/custom.min.js"></script>
+
+    <div id="forgotPassword" class="modal ">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <form>
+                    <div class="modal-header">
+                        <h4 class="modal-title">Quên mật khẩu</h4>
+                        <!--                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>-->
+                        <a href="profile.html">
+                            <button type="button" class="close" aria-hidden="true">&times;</button>
+                        </a>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <div class="form-group">
+                                <label>Mật khẩu cũ</label>
+                                <input type="number" class="form-control" required maxlength="6" min="0">
+                            </div>
+                            <div class="form-group">
+                                <label>Mật khẩu mới</label>
+                                <input type="password" class="form-control" required minlength="6" maxlength="30" min="0">
+                            </div>
+                            <div class="form-group">
+                                <label>Nhập lại mật khẩu mới</label>
+                                <!--                            <textarea class="form-control" required></textarea>-->
+                                <input type="text" class="form-control" required minlength="6" maxlength="30" min="0">
+                            </div>
+
+                            <div class="modal-footer">
+                                <a href="profile.html"> <input type="button" class="btn btn-default" value="Hủy"></a>
+                                <input type="submit" class="btn btn-info" value="Đổi mật khẩu">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
