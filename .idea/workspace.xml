@@ -25,25 +25,7 @@
     <list default="true" id="a1e7e410-b6d5-40a7-aae5-1f54395099e0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AboutUs.html" beforeDir="false" afterPath="$PROJECT_DIR$/AboutUs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountSuccess.html" beforeDir="false" afterPath="$PROJECT_DIR$/AccountSuccess.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/Checkout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DatLaiMatKhau.html" beforeDir="false" afterPath="$PROJECT_DIR$/DatLaiMatKhau.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NhapMaXacMinh.html" beforeDir="false" afterPath="$PROJECT_DIR$/NhapMaXacMinh.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NhapSoDT.html" beforeDir="false" afterPath="$PROJECT_DIR$/NhapSoDT.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OrderTracking.html" beforeDir="false" afterPath="$PROJECT_DIR$/OrderTracking.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account.html" beforeDir="false" afterPath="$PROJECT_DIR$/account.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/Breadcrumb.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Breadcrumb.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/failed.html" beforeDir="false" afterPath="$PROJECT_DIR$/failed.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gifts.html" beforeDir="false" afterPath="$PROJECT_DIR$/gifts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-account.html" beforeDir="false" afterPath="$PROJECT_DIR$/my-account.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/single.html" beforeDir="false" afterPath="$PROJECT_DIR$/single.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store.html" beforeDir="false" afterPath="$PROJECT_DIR$/store.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user.html" beforeDir="false" afterPath="$PROJECT_DIR$/user.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wishlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/wishlist.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/AboutUS.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/AboutUS.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +72,19 @@
       <recent name="C:\Users\caoan\Desktop\mihstore-web\hiBABY\images\brands" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -125,6 +120,7 @@
       <workItem from="1606132712359" duration="49000" />
       <workItem from="1606448938815" duration="4909000" />
       <workItem from="1606455122630" duration="89000" />
+      <workItem from="1607492082848" duration="2769000" />
     </task>
     <servers />
   </component>
