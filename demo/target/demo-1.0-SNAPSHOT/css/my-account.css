@@ -1,0 +1,106 @@
+.table-responsive {
+    min-height: .01%;
+    overflow-x: auto;
+}
+.table-bordered {
+    border: 1px solid #ddd;
+}
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+.text-left {
+    text-align: left;
+}
+table {
+    background-color: transparent;
+}
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+.table-bordered > thead > tr > th, .table-bordered > thead > tr > td {
+    border-bottom: 0;
+}
+.table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td {
+    border: 1px solid #ddd;
+}
+.table > thead > tr > th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #ddd;
+}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+th {
+    text-align: left;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+    background-color: #f9f9f9;
+}
+.table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td {
+    border: 1px solid #ddd;
+}
+.price {
+    color: #ff708a;
+    font-size: 16px;
+    font-weight: bold;
+}
+.text-primary {
+    color: #337ab7;
+}
+.btn-group, .btn-group-vertical {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+.btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.btn-group > .btn:first-child {
+    margin-left: 0;
+}
+.btn-group > .btn, .btn-group-vertical > .btn {
+    position: relative;
+    float: left;
+}
+.first th{
+    font-size: 16px;
+    font-weight: 600;
+}
+.btn-default{
+    background-color: white;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 10px 30px !important;
+    color: black !important;
+    border-radius: 50px !important;
+    border: solid 1px black;
+}
+.btn-color1{
+    background-color: #605d5d;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 10px 30px !important;
+    font-weight: 600 !important;
+    color: #ffffff !important;
+    border-radius: 50px !important;
+    margin-right: 6px;
+
+}
+.btn-color1:hover{
+    background: #ff708a;
+    color: #ffffff;
+}
+td{
+    font-size: 18px;
+}
+.hello{
+    font-size: 20px;
+    font-weight: 600;
+}
